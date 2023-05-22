@@ -21,6 +21,7 @@ RSpec.describe 'Logging in' do
     end
 
     expect(current_path).to eq(user_path(User.last.id))
+    expect(page).to have_content("Welcome, #{user.name}!")
   end
 
   it 'sad path: cannot log in with invalid credentials' do
