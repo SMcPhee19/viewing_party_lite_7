@@ -16,7 +16,8 @@ RSpec.describe User, type: :model do
   end
 
   it 'has secure password' do
-    user = User.create(name: 'Barnaby Jones', email: 'barnaby@email.com', password: 'YouHadMeAtPassword', password_confirmation: 'YouHadMeAtPassword')
+    user = User.create(name: 'Barnaby Jones', email: 'barnaby@email.com', password: 'YouHadMeAtPassword',
+                       password_confirmation: 'YouHadMeAtPassword')
     expect(user).to_not have_attribute(:password)
     expect(user.password_digest).to_not eq('YouHadMeAtPassword')
   end

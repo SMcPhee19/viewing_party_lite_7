@@ -51,7 +51,8 @@ RSpec.describe 'Registration Page' do
     end
 
     it 'displays error message and redirects if email is not unique' do
-      @user1 = User.create!(name: 'Geraldine Peters', email: 'freshtodeath@aol.com', password: 'password', password_confirmation: 'password')
+      @user1 = User.create!(name: 'Geraldine Peters', email: 'freshtodeath@aol.com', password: 'password',
+                            password_confirmation: 'password')
       visit '/register'
 
       within '#registration-form' do

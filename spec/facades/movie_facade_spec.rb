@@ -7,7 +7,7 @@ RSpec.describe MovieFacade do
   describe 'movie facade' do
     it 'creates movie poros', :vcr do
       movie = MovieFacade.get_movie(238)
-   
+
       expect(movie).to be_a(MovieDetail)
       expect(movie.title).to eq('The Godfather')
       expect(movie.vote_average).to eq(8.711)

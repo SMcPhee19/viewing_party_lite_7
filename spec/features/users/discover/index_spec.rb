@@ -6,7 +6,8 @@ RSpec.describe 'Discover Movies Page' do
   describe 'when I visit the users/:id/discover page' do
     before(:each) do
       @user1 = User.create(name: 'Bob', email: 'bob@email.com', password: 'password', password_confirmation: 'password')
-      @user2 = User.create(name: 'Sally', email: 'sally@email.com', password: 'password', password_confirmation: 'password')
+      @user2 = User.create(name: 'Sally', email: 'sally@email.com', password: 'password',
+                           password_confirmation: 'password')
     end
 
     it 'I see a button to discover top rated movies', :vcr do

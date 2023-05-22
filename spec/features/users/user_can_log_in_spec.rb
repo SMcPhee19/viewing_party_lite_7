@@ -1,12 +1,11 @@
 require 'rails_helper'
 
-RSpec.describe "Logging in" do
+RSpec.describe 'Logging in' do
   it 'Happy Path: can log in with valid credentials' do
     user = User.create!(name: 'Barnaby Jones',
-      email: 'randomemail@email.com',
-      password: 'DontShareWithAnyone',
-      password_confirmation: 'DontShareWithAnyone'
-    )
+                        email: 'randomemail@email.com',
+                        password: 'DontShareWithAnyone',
+                        password_confirmation: 'DontShareWithAnyone')
 
     visit root_path
 
@@ -26,15 +25,14 @@ RSpec.describe "Logging in" do
 
   it 'sad path: cannot log in with invalid credentials' do
     user = User.create!(name: 'Barnaby Jones',
-      email: 'randomemail@email.com',
-      password: 'DontShareWithAnyone',
-      password_confirmation: 'DontShareWithAnyone'
-    )
+                        email: 'randomemail@email.com',
+                        password: 'DontShareWithAnyone',
+                        password_confirmation: 'DontShareWithAnyone')
 
     user2 = User.create!(name: 'Geraldine Peters',
-      email: 'anotherrandomemail@email.com',
-      password: 'password',
-      password_confirmation: 'password')
+                         email: 'anotherrandomemail@email.com',
+                         password: 'password',
+                         password_confirmation: 'password')
 
     visit root_path
 
