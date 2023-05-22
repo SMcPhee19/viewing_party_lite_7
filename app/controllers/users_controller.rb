@@ -12,7 +12,7 @@ class UsersController < ApplicationController
     if @new_user.save
       redirect_to user_path(@new_user.id)
     else
-      flash.notice = 'Oops, please try again. Make sure all fields are completed and email is unique!'
+      flash.notice = 'Oops, please try again. Make sure all fields are completed, email is unique, and your passwords match!'
       redirect_to '/register'
     end
   end
@@ -20,6 +20,6 @@ class UsersController < ApplicationController
   private
 
   def user_params
-    params.permit(:name, :email)
+    params.permit(:name, :email, :password)
   end
 end

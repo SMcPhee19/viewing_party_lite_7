@@ -4,8 +4,8 @@ require 'rails_helper'
 
 RSpec.describe 'User Dashboard' do
   before(:each) do
-    @user1 = User.create(name: 'Bob', email: 'bob@email.com')
-    @user2 = User.create(name: 'Sally', email: 'sally@email.com')
+    @user1 = User.create(name: 'Bob', email: 'bob@email.com', password: 'password', password_confirmation: 'password')
+    @user2 = User.create(name: 'Sally', email: 'sally@email.com', password: 'password', password_confirmation: 'password')
     visit user_path(@user1)
   end
 

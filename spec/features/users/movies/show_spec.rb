@@ -3,8 +3,8 @@ require 'rails_helper'
 RSpec.describe 'user story 10' do
   describe 'movie details page' do
     before(:each) do
-      @user1 = User.create(name: 'Bob', email: 'bob@email.com')
-      @user2 = User.create(name: 'Sally', email: 'sally@email.com')
+      @user1 = User.create(name: 'Bob', email: 'bob@email.com', password: 'password', password_confirmation: 'password')
+      @user2 = User.create(name: 'Sally', email: 'sally@email.com', password: 'password', password_confirmation: 'password')
     end
 
     it 'displays a button to create a viewing party', :vcr do
@@ -57,7 +57,7 @@ RSpec.describe 'user story 10' do
 
     it 'displays summary of movie', :vcr do
       visit "/users/#{@user1.id}/movie/324857"
-      # save_and_open_page
+
       within '#movie-details' do
         expect(page).to have_content('Miles Morales is juggling his life between being a high school student and being a spider-man. When Wilson "Kingpin" Fisk uses a super collider, others from across the Spider-Verse are transported to this dimension.')
       end
@@ -75,7 +75,7 @@ RSpec.describe 'user story 10' do
 
     it 'displays count of total reviews', :vcr do
       visit "/users/#{@user1.id}/movie/324857"
-save_and_open_page
+
       within "#movie-reviews" do
         expect(page).to have_content(20)
       end

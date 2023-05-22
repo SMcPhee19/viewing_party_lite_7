@@ -4,9 +4,9 @@ require 'rails_helper'
 
 RSpec.describe 'Landing Page' do
   before(:each) do
-    @user1 = User.create!(name: 'Bob', email: 'bob@email.com')
-    @user2 = User.create!(name: 'Sally', email: 'sally@email.com')
-    @user3 = User.create!(name: 'Joe', email: 'joe@email.com')
+    @user1 = User.create!(name: 'Bob', email: 'bob@email.com', password: 'password', password_confirmation: 'password')
+    @user2 = User.create!(name: 'Sally', email: 'sally@email.com', password: 'password', password_confirmation: 'password')
+    @user3 = User.create!(name: 'Joe', email: 'joe@email.com', password: 'password', password_confirmation: 'password')
     visit root_path
   end
 

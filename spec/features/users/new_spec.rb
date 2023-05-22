@@ -10,8 +10,12 @@ RSpec.describe 'Registration Page' do
       within '#registration-form' do
         expect(page).to have_field('name')
         expect(page).to have_field('email')
+        expect(page).to have_field('password')
+        expect(page).to have_field('confirm_password')
         expect(page).to have_content('Name')
         expect(page).to have_content('Email')
+        expect(page).to have_content('Password')
+        expect(page).to have_content('Confirm Password')
         expect(page).to have_button('Save')
       end
     end
@@ -22,7 +26,8 @@ RSpec.describe 'Registration Page' do
       within '#registration-form' do
         fill_in 'name', with: 'Barnaby Jones'
         fill_in 'email', with: 'freshtodeath@aol.com'
-
+        fill_in 'password', with: 'YouHadMeAtPassword'
+        fill_in 'confirm_password', with: 'YouHadMeAtPassword'
         click_button 'Save'
       end
 
@@ -41,13 +46,12 @@ RSpec.describe 'Registration Page' do
         click_button 'Save'
       end
 
-      # save_and_open_page
       expect(current_path).to eq('/register')
       expect(page).to have_content('Oops, please try again. Make sure all fields are completed and email is unique!')
     end
 
     it 'displays error message and redirects if email is not unique' do
-      @user1 = User.create!(name: 'Geraldine Peters', email: 'freshtodeath@aol.com')
+      @user1 = User.create!(name: 'Geraldine Peters', email: 'freshtodeath@aol.com', password: 'password', password_confirmation: 'password')
       visit '/register'
 
       within '#registration-form' do
@@ -57,9 +61,14 @@ RSpec.describe 'Registration Page' do
         click_button 'Save'
       end
 
-      # save_and_open_page
       expect(current_path).to eq('/register')
       expect(page).to have_content('Oops, please try again. Make sure all fields are completed and email is unique!')
+    end
+  end
+
+  describe 'authentication challenge' do
+    it 'happy path' do
+
     end
   end
 end

@@ -1,7 +1,7 @@
 {
   "RSpec": {
     "coverage": {
-      "/Users/crowrising/Turing/3Mod/Projects/viewing_party_lite_7/config/environment.rb": {
+      "/Users/stevomac/turing_work/3mod/projects/viewing_party_lite_7/config/environment.rb": {
         "lines": [
           null,
           null,
@@ -12,7 +12,7 @@
           1
         ]
       },
-      "/Users/crowrising/Turing/3Mod/Projects/viewing_party_lite_7/config/application.rb": {
+      "/Users/stevomac/turing_work/3mod/projects/viewing_party_lite_7/config/application.rb": {
         "lines": [
           null,
           null,
@@ -55,7 +55,7 @@
           null
         ]
       },
-      "/Users/crowrising/Turing/3Mod/Projects/viewing_party_lite_7/config/boot.rb": {
+      "/Users/stevomac/turing_work/3mod/projects/viewing_party_lite_7/config/boot.rb": {
         "lines": [
           null,
           null,
@@ -65,7 +65,7 @@
           1
         ]
       },
-      "/Users/crowrising/Turing/3Mod/Projects/viewing_party_lite_7/config/environments/test.rb": {
+      "/Users/stevomac/turing_work/3mod/projects/viewing_party_lite_7/config/environments/test.rb": {
         "lines": [
           null,
           null,
@@ -131,7 +131,7 @@
           null
         ]
       },
-      "/Users/crowrising/Turing/3Mod/Projects/viewing_party_lite_7/config/initializers/assets.rb": {
+      "/Users/stevomac/turing_work/3mod/projects/viewing_party_lite_7/config/initializers/assets.rb": {
         "lines": [
           null,
           null,
@@ -149,7 +149,7 @@
           null
         ]
       },
-      "/Users/crowrising/Turing/3Mod/Projects/viewing_party_lite_7/config/initializers/content_security_policy.rb": {
+      "/Users/stevomac/turing_work/3mod/projects/viewing_party_lite_7/config/initializers/content_security_policy.rb": {
         "lines": [
           null,
           null,
@@ -160,41 +160,6 @@
           null,
           null,
           null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null
-        ]
-      },
-      "/Users/crowrising/Turing/3Mod/Projects/viewing_party_lite_7/config/initializers/filter_parameter_logging.rb": {
-        "lines": [
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          1,
-          null,
-          null
-        ]
-      },
-      "/Users/crowrising/Turing/3Mod/Projects/viewing_party_lite_7/config/initializers/inflections.rb": {
-        "lines": [
           null,
           null,
           null,
@@ -214,7 +179,42 @@
           null
         ]
       },
-      "/Users/crowrising/Turing/3Mod/Projects/viewing_party_lite_7/config/initializers/permissions_policy.rb": {
+      "/Users/stevomac/turing_work/3mod/projects/viewing_party_lite_7/config/initializers/filter_parameter_logging.rb": {
+        "lines": [
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          1,
+          null,
+          null
+        ]
+      },
+      "/Users/stevomac/turing_work/3mod/projects/viewing_party_lite_7/config/initializers/inflections.rb": {
+        "lines": [
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null
+        ]
+      },
+      "/Users/stevomac/turing_work/3mod/projects/viewing_party_lite_7/config/initializers/permissions_policy.rb": {
         "lines": [
           null,
           null,
@@ -230,7 +230,7 @@
           null
         ]
       },
-      "/Users/crowrising/Turing/3Mod/Projects/viewing_party_lite_7/config/routes.rb": {
+      "/Users/stevomac/turing_work/3mod/projects/viewing_party_lite_7/config/routes.rb": {
         "lines": [
           null,
           null,
@@ -253,7 +253,7 @@
           null
         ]
       },
-      "/Users/crowrising/Turing/3Mod/Projects/viewing_party_lite_7/app/helpers/application_helper.rb": {
+      "/Users/stevomac/turing_work/3mod/projects/viewing_party_lite_7/app/helpers/application_helper.rb": {
         "lines": [
           null,
           null,
@@ -261,7 +261,7 @@
           null
         ]
       },
-      "/Users/crowrising/Turing/3Mod/Projects/viewing_party_lite_7/app/helpers/user_viewing_parties_helper.rb": {
+      "/Users/stevomac/turing_work/3mod/projects/viewing_party_lite_7/app/helpers/user_viewing_parties_helper.rb": {
         "lines": [
           null,
           null,
@@ -269,7 +269,7 @@
           null
         ]
       },
-      "/Users/crowrising/Turing/3Mod/Projects/viewing_party_lite_7/app/helpers/users_helper.rb": {
+      "/Users/stevomac/turing_work/3mod/projects/viewing_party_lite_7/app/helpers/users_helper.rb": {
         "lines": [
           null,
           null,
@@ -277,7 +277,7 @@
           null
         ]
       },
-      "/Users/crowrising/Turing/3Mod/Projects/viewing_party_lite_7/app/helpers/viewing_parties_helper.rb": {
+      "/Users/stevomac/turing_work/3mod/projects/viewing_party_lite_7/app/helpers/viewing_parties_helper.rb": {
         "lines": [
           null,
           null,
@@ -285,7 +285,7 @@
           null
         ]
       },
-      "/Users/crowrising/Turing/3Mod/Projects/viewing_party_lite_7/app/facades/movie_facade.rb": {
+      "/Users/stevomac/turing_work/3mod/projects/viewing_party_lite_7/app/facades/movie_facade.rb": {
         "lines": [
           null,
           null,
@@ -320,13 +320,12 @@
           12,
           187,
           null,
-          null,
           12,
           null,
           null
         ]
       },
-      "/Users/crowrising/Turing/3Mod/Projects/viewing_party_lite_7/spec/features/users/discover/index_spec.rb": {
+      "/Users/stevomac/turing_work/3mod/projects/viewing_party_lite_7/spec/features/users/discover/index_spec.rb": {
         "lines": [
           null,
           null,
@@ -361,7 +360,6 @@
           null,
           1,
           null,
-          null,
           1,
           1,
           1,
@@ -371,7 +369,7 @@
           null
         ]
       },
-      "/Users/crowrising/Turing/3Mod/Projects/viewing_party_lite_7/spec/features/users/movies/index_spec.rb": {
+      "/Users/stevomac/turing_work/3mod/projects/viewing_party_lite_7/spec/features/users/movies/index_spec.rb": {
         "lines": [
           null,
           null,
@@ -395,6 +393,7 @@
           null,
           null,
           1,
+          null,
           1,
           null,
           null,
@@ -463,7 +462,7 @@
           null
         ]
       },
-      "/Users/crowrising/Turing/3Mod/Projects/viewing_party_lite_7/spec/features/users/movies/show_spec.rb": {
+      "/Users/stevomac/turing_work/3mod/projects/viewing_party_lite_7/spec/features/users/movies/show_spec.rb": {
         "lines": [
           1,
           null,
@@ -542,7 +541,7 @@
           null,
           1,
           1,
-          1,
+          null,
           1,
           1,
           null,
@@ -562,7 +561,7 @@
           null
         ]
       },
-      "/Users/crowrising/Turing/3Mod/Projects/viewing_party_lite_7/spec/features/users/new_spec.rb": {
+      "/Users/stevomac/turing_work/3mod/projects/viewing_party_lite_7/spec/features/users/new_spec.rb": {
         "lines": [
           null,
           null,
@@ -579,37 +578,26 @@
           1,
           1,
           1,
-          null,
-          null,
-          null,
-          1,
-          1,
-          null,
           1,
           1,
           1,
-          null,
-          1,
-          null,
-          null,
           1,
           null,
           null,
           null,
           1,
           1,
-          1,
           null,
           1,
           1,
           1,
-          null,
+          1,
+          1,
           1,
           null,
           null,
+          1,
           null,
-          1,
-          1,
           null,
           null,
           1,
@@ -623,15 +611,35 @@
           1,
           null,
           null,
+          1,
+          1,
+          null,
           null,
           1,
           1,
+          1,
+          null,
+          1,
+          1,
+          1,
+          null,
+          1,
+          null,
+          null,
+          1,
+          1,
+          null,
+          null,
+          null,
+          1,
+          1,
+          null,
           null,
           null,
           null
         ]
       },
-      "/Users/crowrising/Turing/3Mod/Projects/viewing_party_lite_7/spec/features/users/show_spec.rb": {
+      "/Users/stevomac/turing_work/3mod/projects/viewing_party_lite_7/spec/features/users/show_spec.rb": {
         "lines": [
           null,
           null,
@@ -683,7 +691,7 @@
           null
         ]
       },
-      "/Users/crowrising/Turing/3Mod/Projects/viewing_party_lite_7/spec/features/users/viewing_party/new_spec.rb": {
+      "/Users/stevomac/turing_work/3mod/projects/viewing_party_lite_7/spec/features/users/viewing_party/new_spec.rb": {
         "lines": [
           1,
           null,
@@ -692,7 +700,7 @@
           null
         ]
       },
-      "/Users/crowrising/Turing/3Mod/Projects/viewing_party_lite_7/spec/features/welcome_spec.rb": {
+      "/Users/stevomac/turing_work/3mod/projects/viewing_party_lite_7/spec/features/welcome_spec.rb": {
         "lines": [
           null,
           null,
@@ -754,7 +762,7 @@
           null
         ]
       },
-      "/Users/crowrising/Turing/3Mod/Projects/viewing_party_lite_7/spec/models/user_spec.rb": {
+      "/Users/stevomac/turing_work/3mod/projects/viewing_party_lite_7/spec/models/user_spec.rb": {
         "lines": [
           null,
           null,
@@ -770,11 +778,18 @@
           2,
           2,
           2,
+          2,
+          null,
+          null,
+          1,
+          1,
+          1,
+          1,
           null,
           null
         ]
       },
-      "/Users/crowrising/Turing/3Mod/Projects/viewing_party_lite_7/app/models/user.rb": {
+      "/Users/stevomac/turing_work/3mod/projects/viewing_party_lite_7/app/models/user.rb": {
         "lines": [
           null,
           null,
@@ -784,10 +799,13 @@
           null,
           1,
           1,
+          1,
+          null,
+          1,
           null
         ]
       },
-      "/Users/crowrising/Turing/3Mod/Projects/viewing_party_lite_7/app/models/application_record.rb": {
+      "/Users/stevomac/turing_work/3mod/projects/viewing_party_lite_7/app/models/application_record.rb": {
         "lines": [
           null,
           null,
@@ -796,7 +814,7 @@
           null
         ]
       },
-      "/Users/crowrising/Turing/3Mod/Projects/viewing_party_lite_7/spec/models/user_viewing_party_spec.rb": {
+      "/Users/stevomac/turing_work/3mod/projects/viewing_party_lite_7/spec/models/user_viewing_party_spec.rb": {
         "lines": [
           null,
           null,
@@ -810,7 +828,7 @@
           null
         ]
       },
-      "/Users/crowrising/Turing/3Mod/Projects/viewing_party_lite_7/app/models/user_viewing_party.rb": {
+      "/Users/stevomac/turing_work/3mod/projects/viewing_party_lite_7/app/models/user_viewing_party.rb": {
         "lines": [
           null,
           null,
@@ -820,7 +838,7 @@
           null
         ]
       },
-      "/Users/crowrising/Turing/3Mod/Projects/viewing_party_lite_7/spec/poros/movie_details_spec.rb": {
+      "/Users/stevomac/turing_work/3mod/projects/viewing_party_lite_7/spec/poros/movie_details_spec.rb": {
         "lines": [
           1,
           null,
@@ -845,7 +863,7 @@
           null
         ]
       },
-      "/Users/crowrising/Turing/3Mod/Projects/viewing_party_lite_7/spec/services/movie_service_spec.rb": {
+      "/Users/stevomac/turing_work/3mod/projects/viewing_party_lite_7/spec/services/movie_service_spec.rb": {
         "lines": [
           null,
           null,
@@ -904,7 +922,7 @@
           null
         ]
       },
-      "/Users/crowrising/Turing/3Mod/Projects/viewing_party_lite_7/app/services/movie_service.rb": {
+      "/Users/stevomac/turing_work/3mod/projects/viewing_party_lite_7/app/services/movie_service.rb": {
         "lines": [
           null,
           null,
@@ -937,7 +955,7 @@
           null
         ]
       },
-      "/Users/crowrising/Turing/3Mod/Projects/viewing_party_lite_7/app/poros/movie_detail.rb": {
+      "/Users/stevomac/turing_work/3mod/projects/viewing_party_lite_7/app/poros/movie_detail.rb": {
         "lines": [
           null,
           null,
@@ -974,7 +992,7 @@
           null
         ]
       },
-      "/Users/crowrising/Turing/3Mod/Projects/viewing_party_lite_7/app/controllers/users/discover_controller.rb": {
+      "/Users/stevomac/turing_work/3mod/projects/viewing_party_lite_7/app/controllers/users/discover_controller.rb": {
         "lines": [
           null,
           null,
@@ -987,7 +1005,7 @@
           null
         ]
       },
-      "/Users/crowrising/Turing/3Mod/Projects/viewing_party_lite_7/app/controllers/application_controller.rb": {
+      "/Users/stevomac/turing_work/3mod/projects/viewing_party_lite_7/app/controllers/application_controller.rb": {
         "lines": [
           null,
           null,
@@ -995,7 +1013,7 @@
           null
         ]
       },
-      "/Users/crowrising/Turing/3Mod/Projects/viewing_party_lite_7/app/controllers/users/movies_controller.rb": {
+      "/Users/stevomac/turing_work/3mod/projects/viewing_party_lite_7/app/controllers/users/movies_controller.rb": {
         "lines": [
           null,
           null,
@@ -1022,7 +1040,7 @@
           null
         ]
       },
-      "/Users/crowrising/Turing/3Mod/Projects/viewing_party_lite_7/app/controllers/users/viewing_parties_controller.rb": {
+      "/Users/stevomac/turing_work/3mod/projects/viewing_party_lite_7/app/controllers/users/viewing_parties_controller.rb": {
         "lines": [
           null,
           null,
@@ -1038,7 +1056,7 @@
           null
         ]
       },
-      "/Users/crowrising/Turing/3Mod/Projects/viewing_party_lite_7/app/controllers/users_controller.rb": {
+      "/Users/stevomac/turing_work/3mod/projects/viewing_party_lite_7/app/controllers/users_controller.rb": {
         "lines": [
           null,
           null,
@@ -1067,7 +1085,7 @@
           null
         ]
       },
-      "/Users/crowrising/Turing/3Mod/Projects/viewing_party_lite_7/app/controllers/welcome_controller.rb": {
+      "/Users/stevomac/turing_work/3mod/projects/viewing_party_lite_7/app/controllers/welcome_controller.rb": {
         "lines": [
           null,
           null,
@@ -1079,7 +1097,7 @@
           null
         ]
       },
-      "/Users/crowrising/Turing/3Mod/Projects/viewing_party_lite_7/app/models/viewing_party.rb": {
+      "/Users/stevomac/turing_work/3mod/projects/viewing_party_lite_7/app/models/viewing_party.rb": {
         "lines": [
           null,
           null,
@@ -1095,6 +1113,6 @@
         ]
       }
     },
-    "timestamp": 1683934012
+    "timestamp": 1684778273
   }
 }

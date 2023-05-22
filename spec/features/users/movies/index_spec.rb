@@ -5,8 +5,8 @@ require 'rails_helper'
 RSpec.describe 'user story 9' do
   describe 'movie results page' do
     before(:each) do
-      @user1 = User.create(name: 'Bob', email: 'bob@email.com')
-      @user2 = User.create(name: 'Sally', email: 'sally@email.com')
+      @user1 = User.create(name: 'Bob', email: 'bob@email.com', password: 'password', password_confirmation: 'password')
+      @user2 = User.create(name: 'Sally', email: 'sally@email.com', password: 'password', password_confirmation: 'password')
     end
 
     it 'displays top 20 movie titles', :vcr do
@@ -19,7 +19,8 @@ RSpec.describe 'user story 9' do
         expect(page).to have_content('The Boy, the Mole, the Fox and the Horse')
       end
 
-      within '#movie-16' do
+      within '#movie-17' do
+
         expect(page).to have_content('The Lord of the Rings: The Return of the King')
       end
     end
@@ -35,7 +36,7 @@ RSpec.describe 'user story 9' do
         expect(page).to have_content(8.5)
       end
 
-      within '#movie-16' do
+      within '#movie-17' do
         expect(page).to have_content(8.5)
       end
     end
@@ -51,7 +52,7 @@ RSpec.describe 'user story 9' do
         expect(page).to have_link('The Boy, the Mole, the Fox and the Horse')
       end
 
-      within '#movie-16' do
+      within '#movie-17' do
         expect(page).to have_link('The Lord of the Rings: The Return of the King')
       end
     end
