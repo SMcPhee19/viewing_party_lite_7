@@ -47,7 +47,7 @@ RSpec.describe 'Registration Page' do
       end
 
       expect(current_path).to eq('/register')
-      expect(page).to have_content('Oops, please try again. Make sure all fields are completed and email is unique!')
+      expect(page).to have_content('Oops, please try again. Make sure all fields are completed, email is unique, and your passwords match!')
     end
 
     it 'displays error message and redirects if email is not unique' do
@@ -62,13 +62,36 @@ RSpec.describe 'Registration Page' do
       end
 
       expect(current_path).to eq('/register')
-      expect(page).to have_content('Oops, please try again. Make sure all fields are completed and email is unique!')
+      expect(page).to have_content('Oops, please try again. Make sure all fields are completed, email is unique, and your passwords match!')
     end
   end
 
   describe 'authentication challenge' do
     it 'happy path' do
+      visit '/register'
 
+      within '#registration-form' do
+        fill_in 'name', with: 'Barnaby Jones'
+        fill_in 'email', with: 'freshtodeath@aol.com'
+        fill_in 'password', with: 'YouHadMeAtPassword'
+        fill_in 'confirm_password', with: 'YouHadMeAtPassword'
+        click_button 'Save'
+      end
+    end
+
+    it 'sad path: passwords do not match' do
+      visit '/register'
+
+      within '#registration-form' do
+        fill_in 'name', with: 'Barnaby Jones'
+        fill_in 'email', with: 'freshtodeath@aol.com'
+        fill_in 'password', with: 'YouHadMeAtPassword'
+        fill_in 'confirm_password', with: '100%Chillin'
+        click_button 'Save'
+      end
+
+      expect(current_path).to eq('/register')
+      expect(page).to have_content('Oops, please try again. Make sure all fields are completed, email is unique, and your passwords match!')
     end
   end
 end
