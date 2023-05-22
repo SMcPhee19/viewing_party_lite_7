@@ -78,6 +78,8 @@ RSpec.describe 'Registration Page' do
         fill_in 'confirm_password', with: 'YouHadMeAtPassword'
         click_button 'Save'
       end
+
+      expect(current_path).to eq(user_path(User.last.id))
     end
 
     it 'sad path: passwords do not match' do
