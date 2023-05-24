@@ -7,6 +7,10 @@ Rails.application.routes.draw do
   post '/register', controller: 'users', to: 'users#create'
   get '/login', to: 'users#login_form'
   post '/login', to: 'users#login_user'
+  get '/logout', to: 'users#logout'
+
+  get '/dashboard', to: 'users#show'
+  
 
   resources :users do
     resources :discover, only: [:index], controller: 'users/discover'
